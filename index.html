@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow, noimageindex">
-  <meta name="theme-color" content="#fcf5ed">
+  <meta name="theme-color" content="#faf9f6">
   <meta name="description" content="Audrey Tichit, Product Owner combining CRM, analytics and digital delivery. Experience at Royal Canin in B2B journeys, sales tools, reporting requirements and user adoption.">
   <meta property="og:title" content="Audrey Tichit - Product Owner - CRM, Analytics &amp; Digital Experience">
   <meta property="og:description" content="Product ownership, KPI definition, dashboard requirements and change management, with experience supporting Royal Canin, Macif, ANCV and Desjardins.">
@@ -13,6 +13,7 @@
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./theme.css">
+  <link rel="stylesheet" href="./visual-theme.css">
   <script src="./experiences.js" defer></script>
   <script src="./app.js" defer></script>
 </head>
@@ -39,9 +40,9 @@
         <p class="hero-description">I turn business needs into clear product requirements, meaningful KPIs and practical digital solutions. A certified Scrum Product Owner, I bring experience in CRM, analytics and change management, connecting business stakeholders with delivery teams from discovery through adoption.</p>
         <a class="button button-dark" href="#experiences">Explore my experience <span aria-hidden="true">↘</span></a>
       </div>
-      <div class="hero-visual">
-        <div class="portrait-window"><img src="./assets/audrey.jpg" alt="Portrait of Audrey Tichit" width="1860" height="2599" fetchpriority="high"></div>
-      </div>
+      <figure class="hero-visual">
+        <div class="portrait-window"><img src="./assets/audrey-cutout.png" alt="Portrait of Audrey Tichit" width="1061" height="1483" fetchpriority="high"></div>
+      </figure>
       <div class="hero-footnote"><span><strong>10+</strong> years of digital experience</span><span><strong>2014</strong> start of my professional career</span><a href="#experiences">Experience <span aria-hidden="true">↓</span></a></div>
     </section>
 
@@ -93,7 +94,15 @@
         </div>
         <ul class="tool-tags" aria-label="Tools and skills used at Atos"><li>Eloqua</li><li>Oktopost</li><li>Google Analytics</li><li>SEO</li><li>B2B marketing</li></ul>
       </article>
-      <aside class="toolbox"><p class="eyebrow">TOOLS I USE</p><p>Jira <span>·</span> Confluence <span>·</span> Power BI <span>·</span> Looker <span>·</span> Adobe Analytics <span>·</span> GA4 <span>·</span> Salesforce Marketing Cloud <span>·</span> Adobe Campaign <span>·</span> Adobe Experience Manager <span>·</span> GTM <span>·</span> Contentsquare</p></aside>
+      <aside class="toolbox" aria-labelledby="tools-title">
+        <p class="eyebrow" id="tools-title">TOOLS I USE</p>
+        <div class="tool-groups">
+          <section class="tool-group" aria-labelledby="tools-delivery"><h3 id="tools-delivery">Delivery &amp; collaboration</h3><ul><li>Jira</li><li>Confluence</li></ul></section>
+          <section class="tool-group" aria-labelledby="tools-crm"><h3 id="tools-crm">CRM &amp; marketing automation</h3><ul><li>Salesforce CRM</li><li>Salesforce Marketing Cloud</li><li>Adobe Campaign</li></ul></section>
+          <section class="tool-group" aria-labelledby="tools-analytics"><h3 id="tools-analytics">Analytics &amp; reporting</h3><ul><li>Power BI</li><li>Looker</li><li>Adobe Analytics</li><li>GA4</li><li>Piwik</li></ul></section>
+          <section class="tool-group" aria-labelledby="tools-experience"><h3 id="tools-experience">Digital experience &amp; tracking</h3><ul><li>Adobe Experience Manager</li><li>GTM</li><li>Contentsquare</li></ul></section>
+        </div>
+      </aside>
     </section>
 
     <section id="benevolat" class="section volunteering-section" aria-labelledby="volunteering-title">

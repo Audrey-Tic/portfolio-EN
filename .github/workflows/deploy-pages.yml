@@ -33,7 +33,7 @@ jobs:
       - name: Prepare the static website
         run: |
           mkdir -p _site
-          cp index.html styles.css theme.css app.js experiences.js .nojekyll _site/
+          cp index.html styles.css theme.css visual-theme.css app.js experiences.js .nojekyll _site/
           cp -R assets _site/assets
 
       - name: Configure GitHub Pages
