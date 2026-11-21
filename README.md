@@ -71,3 +71,5 @@ Sources: Audrey’s existing CV content, MissionRC_BilanActivités_vATIC.pdf and
 
 Vacancy: https://careers.mars.com/fr/fr/job/R161357/CRMA-Product-Owner-F-M-X
 Trailblazer: https://www.salesforce.com/trailblazer/atichit1
+
+The Trailblazer profile is presented in a dedicated linked card with Salesforce's original cloud logo, stored locally from https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg. It remains separate from the certification list.
