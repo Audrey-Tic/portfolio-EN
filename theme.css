@@ -12,24 +12,14 @@
 .experience-kind { color: var(--accent); font-size: 9px; letter-spacing: 1.4px; text-transform: uppercase; margin-bottom: 4px; }
 .certification-logo { width: 64px; height: 64px; flex-shrink: 0; display: grid; place-items: center; }
 .certification-logo img { width: 100%; height: 100%; object-fit: contain; }
-.certification-list > .sst-certification { gap: 18px; }
-.sst-certification .certification-logo { width: 48px; height: 48px; }
+.certification-list > .sst-certification, .certification-list > .salesforce-profile { gap: 18px; }
+.sst-certification .certification-logo, .salesforce-profile .certification-logo { width: 48px; height: 48px; }
 .sst-certification .certification-logo img { border-radius: 50%; }
 .employer-center { margin-top: 6px; font-size: 13px; color: var(--muted); }
 .employer-center a, .certification-link, .additional-credential a, .illustration-credit a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .employer-center a:hover, .certification-link:hover, .additional-credential a:hover { color: var(--accent); }
 .certification-link { display: inline-block; }
 .additional-credential { margin-top: 20px; font-size: 12px; color: var(--muted); }
-.trailblazer-card { display: flex; align-items: center; gap: 22px; margin-top: 28px; padding: 24px; border: 1px solid #b8d8e8; border-radius: 18px; background: #fff; color: #16325c; text-decoration: none; transition: border-color .2s, box-shadow .2s; }
-.trailblazer-card:hover { border-color: #0176d3; box-shadow: 0 4px 16px #0176d314; }
-.trailblazer-card:focus-visible { outline: 3px solid #0176d3; outline-offset: 4px; }
-.trailblazer-logo { flex: 0 0 112px; display: grid; place-items: center; min-height: 96px; }
-.trailblazer-logo img { width: 96px; height: 68px; object-fit: contain; }
-.trailblazer-copy { display: grid; gap: 8px; min-width: 0; }
-.trailblazer-copy strong { font-size: 1.125rem; line-height: 1.4; }
-.trailblazer-copy > span { font-size: 1rem; line-height: 1.5; }
-.trailblazer-copy .trailblazer-action { color: #015ca5; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
-@media (max-width: 480px) { .trailblazer-card { gap: 14px; padding: 20px 16px; } .trailblazer-logo { flex-basis: 80px; } .trailblazer-logo img { width: 72px; height: 52px; } }
 .header { justify-content: space-between; }
 .footer p { margin-right: auto; }
 .illustration-credit { margin-top: 24px; font-size: 11px; color: var(--muted); text-align: right; }
