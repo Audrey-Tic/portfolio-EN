@@ -13,18 +13,14 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    name: Validate and deploy
+  build:
+    name: Validate and prepare
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
       contents: read
       pages: write
       id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Check out the repository
         uses: actions/checkout@v7.0.1
@@ -48,6 +44,18 @@ jobs:
         with:
           path: _site
 
+  deploy:
+    name: Deploy prepared website
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5.0.1
