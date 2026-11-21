@@ -11,12 +11,12 @@ const server = http.createServer(async (request, response) => {
     const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
     const segments = pathname.split('/').filter(Boolean);
     if (segments.some(segment => segment.startsWith('.')) || pathname.includes('\\')) {
-      response.writeHead(404).end('Introuvable');
+      response.writeHead(404).end('Not found');
       return;
     }
     let filename = resolve(root, '.' + pathname);
     if (filename !== resolve(root) && !filename.startsWith(resolve(root) + sep)) {
-      response.writeHead(403).end('Accès refusé');
+      response.writeHead(403).end('Access denied');
       return;
     }
     if ((await stat(filename)).isDirectory()) filename = resolve(filename, 'index.html');
@@ -24,11 +24,11 @@ const server = http.createServer(async (request, response) => {
     response.writeHead(200, { 'Content-Type': types[extname(filename)] || 'application/octet-stream', 'Cache-Control': 'no-store' });
     response.end(body);
   } catch {
-    response.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }).end('Introuvable');
+    response.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }).end('Not found');
   }
 });
 server.on('error', error => {
-  console.error(error.code === 'EADDRINUSE' ? `Le port ${port} est déjà utilisé. Choisissez-en un autre avec la variable PORT.` : error.message);
+  console.error(error.code === 'EADDRINUSE' ? `Port ${port} is already in use. Choose another using the PORT environment variable.` : error.message);
   process.exitCode = 1;
 });
-server.listen(port, '127.0.0.1', () => console.log(`Portfolio local : http://localhost:${port}`));
+server.listen(port, '127.0.0.1', () => console.log(`Local portfolio: http://localhost:${port}`));

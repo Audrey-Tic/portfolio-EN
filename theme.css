@@ -1,4 +1,4 @@
-/* Palette chaude et présentation des clients, sans ressource externe. */
+/* Warm palette and client presentation, with no external resources. */
 .employer-card { padding: 30px; margin-bottom: 20px; border: 1px solid #d9b9a1; border-radius: 20px; background: #f7e8da; }
 .employer-heading { display: flex; align-items: center; gap: 22px; margin-bottom: 26px; }
 .employer-logo { display: flex; align-items: center; justify-content: center; width: 110px; height: 78px; padding: 14px; background: #fff; border-radius: 13px; flex-shrink: 0; }
@@ -193,7 +193,7 @@
   .button { transition: none; }
 }
 
-/* Illustrations de Game-icons.net au recto, récit personnel au verso. */
+/* Game-icons.net illustrations on the front, personal stories on the back. */
 .footer { flex-wrap: wrap; }
 .illustration-credits { flex-basis: 100%; font-size: 11px; color: var(--muted); }
 .illustration-credits summary { width: fit-content; cursor: pointer; }

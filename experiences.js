@@ -1,11 +1,11 @@
-/* Informations issues du CV et précisions apportées par Audrey. Employeurs présentés dans index.html. */
+/* Information from Audrey’s CV and additional details she provided. Employers are presented in index.html. */
 window.portfolioMarkets = {
-  "banking": "Banque & assurance",
-  "aerospace": "Aéronautique",
-  "retail": "Retail & grande consommation",
-  "automotive": "Automobile",
-  "technology": "Technologie & logiciels",
-  "tourism": "Tourisme & loisirs"
+  "banking": "Banking & insurance",
+  "aerospace": "Aerospace",
+  "retail": "Retail & consumer goods",
+  "automotive": "Automotive",
+  "technology": "Technology & software",
+  "tourism": "Tourism & leisure"
 };
 
 window.portfolioExperiences = [
@@ -13,48 +13,48 @@ window.portfolioExperiences = [
     "company": "Airbus",
     "monogram": "A",
     "color": "blue",
-    "role": "Consultante SEO / GEO & marketing",
-    "period": "Oct. - déc. 2025 · Depuis sept. 2026",
+    "role": "SEO / GEO & Marketing Consultant",
+    "period": "Oct - Dec 2025 · Since Sep 2026",
     "current": true,
     "categories": [
       "marketing",
       "data"
     ],
-    "summary": "Deux missions : feuille de route SEO / GEO et diagnostic Salesforce Marketing Cloud.",
+    "summary": "Two assignments: an SEO / GEO roadmap and a Salesforce Marketing Cloud assessment.",
     "projects": [
       {
         "title": "SEO / GEO",
-        "period": "Sept. 2026 - aujourd’hui",
-        "context": "Capitaliser sur les initiatives et outils existants pour proposer une feuille de route SEO / GEO à horizon 2027.",
+        "period": "Sep 2026 - present",
+        "context": "Build on existing initiatives and tools to propose an SEO / GEO roadmap for 2027.",
         "missions": [
-          "Réalisation d’un benchmark des solutions existantes.",
-          "Analyse des dimensions techniques et éditoriales.",
-          "Formulation de recommandations et construction de la trajectoire SEO / GEO.",
-          "Organisation des instances de pilotage, suivi de l’avancement et des risques."
+          "Benchmark existing solutions.",
+          "Analyse technical and editorial aspects.",
+          "Develop recommendations and define the SEO / GEO roadmap.",
+          "Organise project governance meetings and monitor progress and risks."
         ]
       },
       {
         "title": "Salesforce Marketing Cloud",
-        "period": "Oct. - déc. 2025",
-        "context": "Diagnostiquer l’existant et analyser l’environnement data et marketing afin de prioriser les cas d’usage et de définir la cible.",
+        "period": "Oct - Dec 2025",
+        "context": "Assess the current setup and analyse the data and marketing environment to prioritise use cases and define the target state.",
         "missions": [
-          "Réalisation du diagnostic fonctionnel et technique de Salesforce Marketing Cloud.",
-          "Analyse de la gouvernance data, des accès, des Business Units et du modèle de données.",
-          "Qualification et priorisation des cas d’usage selon leur impact et leur complexité.",
-          "Construction d’une roadmap de transformation et formulation des recommandations stratégiques.",
-          "Animation des ateliers avec les parties prenantes métier et IT.",
-          "Organisation des instances de pilotage, suivi de l’avancement et des risques."
+          "Conduct a functional and technical assessment of Salesforce Marketing Cloud.",
+          "Analyse data governance, access rights, Business Units and the data model.",
+          "Assess and prioritise use cases based on impact and complexity.",
+          "Build a transformation roadmap and develop strategic recommendations.",
+          "Facilitate workshops with business and IT stakeholders.",
+          "Organise project governance meetings and monitor progress and risks."
         ]
       }
     ],
     "tools": [
       "SEO",
       "GEO",
-      "Benchmark",
+      "Benchmarking",
       "Roadmap",
       "Salesforce Marketing Cloud",
-      "Gouvernance data",
-      "Ateliers"
+      "Data governance",
+      "Workshops"
     ],
     "market": "aerospace",
     "logo": "./assets/logos/airbus.jpeg"
@@ -64,24 +64,24 @@ window.portfolioExperiences = [
     "monogram": "c",
     "color": "orange",
     "role": "Lead Change Manager",
-    "period": "Juil. 2025 - août 2026",
+    "period": "Jul 2025 - Aug 2026",
     "categories": [
       "change"
     ],
-    "summary": "Accompagnement d’une transformation IT dans un contexte de fusions et acquisitions.",
-    "context": "Une transformation technologique et organisationnelle qui touche les équipes IT, les processus de support et les relations entre la DSI et les métiers.",
+    "summary": "Supported an IT transformation in the context of mergers and acquisitions.",
+    "context": "A technological and organisational transformation affecting IT teams, support processes and relationships between IT and business functions.",
     "missions": [
-      "Accompagnement des changements technologiques et organisationnels.",
-      "Mise en avant des KPIs clés et des réussites du programme.",
-      "Accompagnement de la transition des rôles et responsabilités au sein des équipes IT.",
-      "Contribution à l’amélioration de l’efficacité de la DSI au service des métiers.",
-      "Établissement du plan de charge et chiffrage des activités.",
-      "Élaboration du plan de risques."
+      "Supported technological and organisational change.",
+      "Highlighted key KPIs and programme achievements.",
+      "Supported the transition of roles and responsibilities within IT teams.",
+      "Contributed to improving IT effectiveness in supporting business functions.",
+      "Developed the resource plan and estimated the effort required for activities.",
+      "Developed the risk management plan."
     ],
     "tools": [
-      "Conduite du changement",
+      "Change management",
       "KPIs",
-      "Transformation IT"
+      "IT transformation"
     ],
     "market": "technology",
     "logo": "./assets/logos/cegid.png"
@@ -91,22 +91,22 @@ window.portfolioExperiences = [
     "monogram": "D",
     "color": "green",
     "role": "Product Owner",
-    "period": "Oct. 2024 - juil. 2025",
+    "period": "Oct 2024 - Jul 2025",
     "categories": [
       "product",
       "data",
       "change"
     ],
-    "summary": "Pilotage de la migration du site La Personnelle de Liferay vers Adobe Experience Manager.",
-    "context": "Accompagner le changement de plateforme en assurant la cohérence des parcours, la continuité des données et la préparation des utilisateurs.",
+    "summary": "Led the migration of the La Personnelle website from Liferay to Adobe Experience Manager.",
+    "context": "Supported the platform migration while ensuring consistent user journeys, data continuity and user readiness.",
     "missions": [
-      "Définition et documentation des composants et des structures de pages selon les besoins métier et UX.",
-      "Accompagnement de l’implémentation d’Adobe Analytics avec les équipes techniques.",
-      "Planification de la migration en coordination avec les équipes pluridisciplinaires.",
-      "Supervision des éléments SEO et de tracking pour la continuité de la mesure.",
-      "Coordination et animation des formations aux utilisateurs finaux.",
-      "Suivi du backlog dans Jira.",
-      "Gestion des risques du projet."
+      "Defined and documented components and page structures based on business and UX requirements.",
+      "Supported the implementation of Adobe Analytics with technical teams.",
+      "Planned the migration in coordination with multidisciplinary teams.",
+      "Oversaw SEO and tracking requirements to maintain measurement continuity.",
+      "Coordinated and delivered training for end users.",
+      "Managed the backlog in Jira.",
+      "Managed project risks."
     ],
     "tools": [
       "AEM",
@@ -114,7 +114,7 @@ window.portfolioExperiences = [
       "Adobe Analytics",
       "Jira",
       "SEO",
-      "Formation"
+      "Training"
     ],
     "market": "banking",
     "logo": "./assets/logos/desjardins.png"
@@ -123,14 +123,14 @@ window.portfolioExperiences = [
     "company": "ANCV",
     "monogram": "a",
     "color": "red",
-    "role": "Consultante analytics & Business Analyst",
-    "period": "Mars 2024 - oct. 2025",
+    "role": "Analytics Consultant & Business Analyst",
+    "period": "Mar 2024 - Oct 2025",
     "categories": [
       "data",
       "product",
       "marketing"
     ],
-    "summary": "Audit analytics et mise en place de plans de tracking personnalisés.",
+    "summary": "Audited analytics and implemented tailored tracking plans.",
     "tools": [
       "GTM",
       "Contentsquare",
@@ -142,36 +142,36 @@ window.portfolioExperiences = [
     ],
     "market": "tourism",
     "logo": "./assets/logos/ancv.png",
-    "context": "Deux interventions : un audit analytics sur huit sites et deux applications, puis la mise en place de plans de tracking sur neuf dispositifs de mars 2024 à octobre 2025.",
+    "context": "Two engagements: an analytics audit across eight websites and two applications, followed by the implementation of tracking plans across nine digital properties between March 2024 and October 2025.",
     "missions": [
-      "Définition des objectifs de conversion et des indicateurs clés de performance.",
-      "Création des plans de tags dans Google Tag Manager.",
-      "Définition de la stratégie d’analyse des parcours dans Contentsquare.",
-      "Mise en place des tableaux de bord de suivi.",
-      "Analyse des paramétrages Google Analytics et des tags GTM.",
-      "Vérification des appels GTM, des éventuelles pénalités SEO et de la configuration des cookies.",
-      "Signalement des non-conformités RGPD identifiées.",
-      "Rédaction d’un rapport d’analyse et construction d’une roadmap de tracking des parcours.",
-      "Construction du plan de charge.",
-      "Management d’une consultante."
+      "Defined conversion goals and key performance indicators.",
+      "Created tagging plans in Google Tag Manager.",
+      "Defined the user journey analysis strategy in Contentsquare.",
+      "Set up monitoring dashboards.",
+      "Analysed Google Analytics settings and GTM tags.",
+      "Checked GTM requests, potential SEO penalties and cookie configuration.",
+      "Reported identified GDPR compliance issues.",
+      "Wrote an analysis report and developed a user journey tracking roadmap.",
+      "Developed the resource plan.",
+      "Managed one consultant."
     ],
-    "outcome": "L’intervention a permis à l’ANCV de retrouver une mesure cohérente du trafic et des KPIs fiables pour orienter l’évolution des sites et applications."
+    "outcome": "The engagement helped ANCV restore consistent traffic measurement and reliable KPIs to guide improvements to its websites and applications."
   },
   {
     "company": "Speedy",
     "monogram": "S",
     "color": "blue",
-    "role": "Consultante analytics",
-    "period": "Oct. 2024 - janv. 2025",
+    "role": "Analytics Consultant",
+    "period": "Oct 2024 - Jan 2025",
     "categories": [
       "data",
       "marketing"
     ],
-    "summary": "Maintenance et évolution du plan de tag et du suivi des campagnes marketing.",
-    "context": "Accompagner la maintenance et l’évolution de la mesure digitale en lien avec les partenaires marketing.",
+    "summary": "Maintained and enhanced the tagging plan and marketing campaign tracking.",
+    "context": "Supported the maintenance and development of digital measurement in collaboration with marketing partners.",
     "missions": [
-      "Création des balises avec les partenaires pour le tracking marketing et le retargeting.",
-      "Mise en place des dashboards de suivi."
+      "Created tags with partners for marketing tracking and retargeting.",
+      "Set up monitoring dashboards."
     ],
     "tools": [
       "Tracking",
@@ -185,21 +185,21 @@ window.portfolioExperiences = [
     "company": "Macif",
     "monogram": "M",
     "color": "blue",
-    "role": "Consultante change & Business Analyst",
-    "period": "Déc. 2023 - mars 2024",
+    "role": "Change Management Consultant & Business Analyst",
+    "period": "Dec 2023 - Mar 2024",
     "categories": [
       "data",
       "product",
       "change"
     ],
-    "summary": "Rationalisation des KPIs et cartographie des parcours de contact.",
-    "context": "Deux périmètres pour la stratégie digitale : rationaliser les indicateurs de performance et comprendre de bout en bout le parcours de rappel à la demande.",
+    "summary": "Streamlined KPIs and mapped customer contact journeys.",
+    "context": "Two areas of digital strategy: rationalising performance indicators and understanding the end-to-end callback request journey.",
     "missions": [
-      "Animation des ateliers métiers et définition des indicateurs web, app et réseaux sociaux.",
-      "Analyse des écarts de mesure des conversions et définition des user stories et de leurs dépendances.",
-      "Accompagnement de la prise en main des tableaux de bord.",
-      "Modélisation des parcours Web Call Back et des flux entre SAP, Genesys et le CMS.",
-      "Documentation des parcours et recommandations d’optimisation pour les clients et téléconseillers."
+      "Facilitated business workshops and defined web, app and social media indicators.",
+      "Analysed conversion measurement discrepancies and defined user stories and their dependencies.",
+      "Helped users get started with dashboards.",
+      "Modelled Web Call Back journeys and data flows between SAP, Genesys and the CMS.",
+      "Documented journeys and recommended improvements for customers and contact centre advisers."
     ],
     "tools": [
       "Piano",
@@ -216,29 +216,29 @@ window.portfolioExperiences = [
     "company": "Airbus",
     "monogram": "A",
     "color": "blue",
-    "role": "Consultante Change Management",
+    "role": "Change Management Consultant",
     "period": "2022 - 2023",
     "categories": [
       "change",
       "product",
       "data"
     ],
-    "summary": "Accompagnement de 12 000 utilisateurs dans l’adoption d’un outil de gestion des ressources.",
-    "context": "Faciliter l’adoption d’une nouvelle solution interne dans un environnement SAFe.",
+    "summary": "Supported 12,000 users in adopting a resource management tool.",
+    "context": "Facilitated the adoption of a new internal solution in a SAFe environment.",
     "missions": [
-      "Conception de la communication interne et projet.",
-      "Gestion du backlog et animation des weekly et PI Plannings aux côtés du RTE.",
-      "Création des supports de formation et des contenus web.",
-      "Définition des cas d’usage et personas.",
-      "Analyse des usages et création des rapports dans Data Studio avec Google Analytics.",
-      "Organisation des instances de pilotage, suivi de l’avancement et des risques."
+      "Designed internal and project communications.",
+      "Managed the backlog and facilitated weekly meetings and PI Planning alongside the RTE.",
+      "Created training materials and web content.",
+      "Defined use cases and personas.",
+      "Analysed usage and created reports in Data Studio using Google Analytics.",
+      "Organised project governance meetings and monitored progress and risks."
     ],
     "tools": [
       "SAFe",
       "Backlog",
       "Google Analytics",
       "Data Studio",
-      "Formation"
+      "Training"
     ],
     "market": "aerospace",
     "logo": "./assets/logos/airbus.jpeg"
@@ -247,18 +247,18 @@ window.portfolioExperiences = [
     "company": "Safran Nacelles",
     "monogram": "S",
     "color": "blue",
-    "role": "Consultante Change Management",
+    "role": "Change Management Consultant",
     "period": "2022",
     "categories": [
       "change",
       "marketing"
     ],
-    "summary": "Création d’un support de communication pour le lancement d’un portail.",
-    "context": "Créer un support de communication pour promouvoir un portail et susciter la curiosité de ses futurs utilisateurs.",
+    "summary": "Created communications material for a portal launch.",
+    "context": "Created communications material to promote a portal and spark the interest of future users.",
     "missions": [
-      "Interviews des parties prenantes du projet.",
-      "Construction du storytelling et création du support de communication.",
-      "Création des animations et suivi après l’événement."
+      "Interviewed project stakeholders.",
+      "Developed the narrative and created communications material.",
+      "Created animations and provided post-event follow-up."
     ],
     "tools": [
       "Storytelling",
@@ -272,24 +272,24 @@ window.portfolioExperiences = [
     "company": "Société Générale",
     "monogram": "SG",
     "color": "red",
-    "role": "Consultante Marketing Automation",
+    "role": "Marketing Automation Consultant",
     "period": "2022",
     "categories": [
       "marketing",
       "product"
     ],
-    "summary": "Accompagnement de la migration d’Unica vers Adobe Campaign.",
-    "context": "Intervenir comme consultante fonctionnelle sur la migration de la plateforme de campagnes marketing.",
+    "summary": "Supported the migration from Unica to Adobe Campaign.",
+    "context": "Worked as a functional consultant on the migration of the marketing campaign platform.",
     "missions": [
-      "Analyse des campagnes existantes et formulation de recommandations.",
-      "Rédaction des spécifications fonctionnelles depuis Unica pour leur intégration dans Adobe Campaign.",
-      "Définition des cas d’usage marketing.",
-      "Définition de la stratégie de test et réalisation des tests."
+      "Analysed existing campaigns and developed recommendations.",
+      "Wrote functional specifications for migrating campaigns from Unica to Adobe Campaign.",
+      "Defined marketing use cases.",
+      "Defined the testing strategy and carried out tests."
     ],
     "tools": [
       "Adobe Campaign",
       "Unica",
-      "Spécifications",
+      "Specifications",
       "Tests"
     ],
     "market": "banking",
@@ -299,23 +299,23 @@ window.portfolioExperiences = [
     "company": "Le Conservateur",
     "monogram": "LC",
     "color": "green",
-    "role": "Consultante Marketing Automation",
+    "role": "Marketing Automation Consultant",
     "period": "2022",
     "categories": [
       "marketing",
       "product"
     ],
-    "summary": "Cadrage des besoins fonctionnels pour la mise en place d’Adobe Campaign.",
-    "context": "Accompagner le déploiement de la solution de marketing automation avec les équipes métier.",
+    "summary": "Defined functional requirements for the implementation of Adobe Campaign.",
+    "context": "Supported the rollout of the marketing automation solution with business teams.",
     "missions": [
-      "Rédaction des spécifications fonctionnelles générales et détaillées.",
-      "Définition des cas d’usage marketing.",
-      "Organisation des ateliers métier."
+      "Wrote high-level and detailed functional specifications.",
+      "Defined marketing use cases.",
+      "Organised business workshops."
     ],
     "tools": [
       "Adobe Campaign",
-      "Ateliers",
-      "Spécifications"
+      "Workshops",
+      "Specifications"
     ],
     "market": "banking",
     "logo": "./assets/logos/le-conservateur.png"
@@ -330,14 +330,14 @@ window.portfolioExperiences = [
       "product",
       "data"
     ],
-    "summary": "Mise en place d’une expérience B2B consolidée et amélioration d’un outil de salesforce automation.",
-    "context": "Deux missions : mettre en place un écosystème B2B offrant une expérience d’achat consolidée et améliorer en continu un outil d’automatisation de la force de vente.",
+    "summary": "Delivered a unified B2B experience and improved a sales force automation tool.",
+    "context": "Two assignments: implementing a B2B ecosystem offering a unified purchasing experience and continuously improving a sales force automation tool.",
     "missions": [
-      "Animation des ateliers métier et techniques, définition des user stories et chiffrage avec les développeurs.",
-      "Création des personas et cartographie de l’expérience utilisateur.",
-      "Identification des silos et des besoins spécifiques des pays.",
-      "Interviews des utilisateurs et experts fonctionnels sur les usages.",
-      "Analyse des données dans Power BI et proposition d’actions correctives."
+      "Facilitated business and technical workshops, defined user stories and estimated effort with developers.",
+      "Created personas and mapped the user experience.",
+      "Identified silos and country-specific requirements.",
+      "Interviewed users and functional experts about usage.",
+      "Analysed data in Power BI and recommended corrective actions."
     ],
     "tools": [
       "User stories",
@@ -358,12 +358,12 @@ window.portfolioExperiences = [
       "product",
       "marketing"
     ],
-    "summary": "Optimisation des processus marketing de quatre marques avec Adobe Campaign.",
-    "context": "Accompagner la direction marketing de BMW France sur ses processus métier et sa plateforme de campagnes.",
+    "summary": "Optimised marketing processes for four brands using Adobe Campaign.",
+    "context": "Supported BMW France’s marketing department with its business processes and campaign platform.",
     "missions": [
-      "Recensement des besoins métier France.",
-      "Rédaction des user stories dans Jira.",
-      "Paramétrage et mise en place des campagnes."
+      "Gathered business requirements for France.",
+      "Wrote user stories in Jira.",
+      "Configured and implemented campaigns."
     ],
     "tools": [
       "Adobe Campaign",
@@ -381,18 +381,18 @@ window.portfolioVolunteering = [
     "company": "Orchestre à l’école",
     "monogram": "O",
     "color": "green",
-    "role": "Consultante analytics",
+    "role": "Analytics Consultant",
     "period": "2023",
     "categories": [
       "data",
       "change"
     ],
-    "summary": "Accompagnement de la migration vers GA4 et création de tableaux de bord pour l’association.",
-    "context": "Accompagner l’association dans la gestion de son outillage analytics et la transition vers GA4.",
+    "summary": "Supported the migration to GA4 and created dashboards for the non-profit organisation.",
+    "context": "Helped the organisation manage its analytics tools and transition to GA4.",
     "missions": [
-      "Accompagnement de la migration de Google Analytics 3 vers GA4.",
-      "Maquettage des dashboards sous Canvas.",
-      "Mise en place de tableaux de bord accessibles aux métiers."
+      "Supported the migration from Google Analytics 3 to GA4.",
+      "Created dashboard mock-ups in Canvas.",
+      "Set up dashboards accessible to business users."
     ],
     "tools": [
       "GA4",
@@ -406,22 +406,22 @@ window.portfolioVolunteering = [
     "company": "Paris Mozart Orchestra",
     "monogram": "PM",
     "color": "orange",
-    "role": "Consultante Social Media",
+    "role": "Social Media Consultant",
     "period": "2021",
     "categories": [
       "marketing"
     ],
-    "summary": "Définition de la stratégie de communication et de visibilité de l’association.",
-    "context": "Accompagner la communication sur les réseaux sociaux, le SEO et la stratégie de contenu.",
+    "summary": "Defined the organisation’s communications and visibility strategy.",
+    "context": "Supported social media communications, SEO and content strategy.",
     "missions": [
-      "Formulation de recommandations éditoriales orientées SEO.",
-      "Optimisation des mots-clés et de la structure des contenus.",
-      "Proposition d’un plan éditorial."
+      "Developed SEO-focused editorial recommendations.",
+      "Optimised keywords and content structure.",
+      "Proposed an editorial plan."
     ],
     "tools": [
       "Social media",
       "SEO",
-      "Stratégie éditoriale"
+      "Content strategy"
     ],
     "logo": "./assets/logos/paris-mozart-orchestra.png"
   }

@@ -42,12 +42,12 @@
     const identity = element('div', 'experience-identity');
     const companyLine = element('div', 'company-line');
     companyLine.append(element('h3', '', experience.company));
-    if (experience.current) companyLine.append(element('span', 'current-badge', 'En cours'));
-    const kind = experience.market ? 'Client' : 'Association';
+    if (experience.current) companyLine.append(element('span', 'current-badge', 'Current'));
+    const kind = experience.market ? 'Client' : 'Non-profit organisation';
     identity.append(element('p', 'experience-kind', kind), companyLine, element('p', 'experience-role', experience.role));
     const meta = element('div', 'experience-meta');
     meta.append(element('span', 'experience-period', experience.period));
-    meta.append(element('span', 'experience-category', experience.market ? markets[experience.market] : 'Bénévolat · Culture & éducation'));
+    meta.append(element('span', 'experience-category', experience.market ? markets[experience.market] : 'Volunteering · Culture & education'));
     const toggle = element('span', 'experience-toggle');
     toggle.setAttribute('aria-hidden', 'true');
     summary.append(brand, identity, meta, toggle);
@@ -64,9 +64,9 @@
       }
       const columns = element('div', 'mission-columns');
       const context = element('div', 'mission-context');
-      context.append(element(headingLevel, 'detail-heading', 'Le contexte'), element('p', '', project.context));
+      context.append(element(headingLevel, 'detail-heading', 'Context'), element('p', '', project.context));
       const missions = element('div', 'mission-tasks');
-      missions.append(element(headingLevel, 'detail-heading', 'Mon intervention'));
+      missions.append(element(headingLevel, 'detail-heading', 'My contribution'));
       const tasks = element('ul', 'task-list');
       project.missions.forEach(mission => tasks.append(element('li', '', mission)));
       missions.append(tasks);
@@ -76,7 +76,7 @@
       body.append(block);
     });
     const tools = element('ul', 'tool-tags');
-    tools.setAttribute('aria-label', 'Outils et compétences mobilisés');
+    tools.setAttribute('aria-label', 'Tools and skills used');
     experience.tools.forEach(tool => tools.append(element('li', '', tool)));
     body.append(tools);
     card.append(summary, body);
@@ -90,12 +90,12 @@
       (activeMarket === 'all' || experience.market === activeMarket));
     const visible = !filtered && !expanded ? matching.slice(0, 6) : matching;
     list.replaceChildren(...visible.map(renderExperience));
-    count.textContent = filtered ? `${matching.length} expérience${matching.length === 1 ? '' : 's'} sur ${experiences.length}` : `${visible.length} / ${matching.length} expériences`;
+    count.textContent = filtered ? `${matching.length} of ${experiences.length} assignments` : `${visible.length} / ${matching.length} assignments`;
     more.hidden = filtered || matching.length <= 6;
     resetFilters.hidden = !filtered;
     emptyState.hidden = matching.length > 0;
     more.setAttribute('aria-expanded', String(expanded));
-    more.replaceChildren(document.createTextNode(expanded ? 'Réduire le parcours ' : `Voir les ${matching.length} expériences `), element('span', '', expanded ? '−' : '＋'));
+    more.replaceChildren(document.createTextNode(expanded ? 'Show less ' : `View all ${matching.length} assignments `), element('span', '', expanded ? '−' : '＋'));
     more.lastElementChild.setAttribute('aria-hidden', 'true');
   }
 

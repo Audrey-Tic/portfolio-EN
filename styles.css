@@ -165,7 +165,7 @@ h2 em{color:var(--accent)}
 @media(max-width:380px){h1{font-size:41px;letter-spacing:-2.1px}.hero-main>.eyebrow{letter-spacing:1px;font-size:7px}.hero-visual{width:calc(100% - 20px)}.portrait-window{width:210px;height:265px}.floating-label{font-size:9px}.label-product{left:-30px}.label-data{right:-27px}.visual-top{font-size:7px}.passion{padding-inline:13px}.passion-art{height:110px}.passion h3{font-size:19px}.education-row{grid-template-columns:82px 1fr}.education-date{font-size:9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}.button:hover,.passion:hover{transform:none}}
 
-/* Présentation factuelle et filtres combinés. */
+/* Factual presentation and combined filters. */
 .hero .hero-visual {
   display: block;
   align-self: center;

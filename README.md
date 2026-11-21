@@ -1,62 +1,64 @@
-# portfolio-EN — Portfolio d’Audrey Tichit
+# portfolio-EN — Audrey Tichit’s portfolio
 
-Copie de travail indépendante du portfolio actuel, créée le 21 novembre 2026. Le contenu et le design sont initialement identiques ; la traduction anglaise et la refonte pourront être réalisées ici. Dépôt séparé : https://github.com/Audrey-Tic/portfolio-EN. Cette version n’est pas encore publiée comme site web.
+English version of Audrey Tichit’s professional portfolio: a single page built with HTML, CSS and vanilla JavaScript. Entirely static, with no external libraries or visitor tracking.
 
-Depuis ce dossier, lancer `npm run dev`, puis ouvrir http://localhost:4174. Le portfolio original conserve son port 4173. Le dossier `portfolio-v2` est exclu du suivi du dépôt original.
+This project is independent of the original French portfolio. The translation preserves the professional information, dates, company names, qualifications and design. Official French institution and qualification names are retained where appropriate.
 
-Le workflow GitHub Pages est conservé pour une future publication séparée, avec déclenchement manuel uniquement. Ne pas connecter cette copie au dépôt GitHub du portfolio original pour la publier.
+- Repository: https://github.com/Audrey-Tic/portfolio-EN
+- English website: https://audrey-tic.github.io/portfolio-EN/
+- Original French website: https://audrey-tic.github.io/portfolio/
 
-Portfolio personnel en français, sur une seule page, en HTML, CSS et JavaScript natifs. Entièrement statique, sans bibliothèque externe ni suivi de visiteurs.
+## Local preview
 
-## Ouvrir en local
-
-Ouvrir `index.html` directement dans un navigateur, ou, avec Node.js 20 ou supérieur :
+Open `index.html` directly in a browser, or use Node.js 20 or later:
 
 ```sh
 npm run dev
 ```
 
-Puis ouvrir http://localhost:4174. Le serveur de prévisualisation écoute uniquement sur la machine locale. Arrêter avec Ctrl+C. Aucune installation nécessaire.
+Then open http://localhost:4174. The preview server listens only on the local machine. Stop it with Ctrl+C. No installation is needed. The original project uses port 4173, so both versions can run at the same time.
 
-## Modifier le contenu
+Run `npm run check` to check JavaScript syntax.
 
-- `index.html` : introduction, bénévolat, formations, certifications, centres d’intérêt et liens.
-- `experiences.js` : expériences professionnelles, bénévolat, regroupements de missions, marchés et domaines.
-- `styles.css` : présentation et adaptations mobile.
-- `theme.css` : palette chaude, cartes clients, logos et taille des textes.
-- `app.js` : filtres, affichage des missions et navigation.
-- `assets/audrey.jpg` : photographie fournie par Audrey.
-- `assets/logos/` : logos des clients et associations extraits du CV fourni, servis localement.
+## Editing the content
 
-Les informations professionnelles proviennent du CV fourni. Le bénévolat, les centres d’intérêt, la photo et le lien LinkedIn ont été précisés par Audrey. Les deux missions ANCV et les deux missions Airbus les plus récentes sont regroupées, avec leurs dates et leurs interventions distinctes. L’expérience Airbus 2022–2023 reste séparée. Les filtres par domaine et par marché sont combinables et s’appliquent uniquement aux expériences professionnelles. Le document Word n’est pas inclus dans le site. Le numéro de téléphone est affiché dans la rubrique Contact.
+- `index.html`: introduction, employers, education, certifications, interests, contact details and links.
+- `experiences.js`: client and volunteer assignments, project groupings, industries and areas of expertise.
+- `app.js`: filters, assignment details, navigation and interest cards.
+- `styles.css`: layout and responsive styles.
+- `theme.css`: colour palette, client cards, logos and typography.
+- `assets/audrey.jpg`: portrait provided by Audrey.
+- `assets/logos/`: locally served client and organisation logos.
+
+Professional information comes from the supplied CV and Audrey’s additional details. Her volunteering, interests, portrait, LinkedIn profile, CGI responsibilities and workplace first aid qualification were provided by Audrey. No experience or certification dates have been invented for the translation.
+
+The two ANCV assignments and the two most recent Airbus assignments are grouped, retaining the original dates and scope. The Airbus assignment from 2022–2023 remains separate. Industry and expertise filters can be combined and apply only to client assignments. Some assignments ran concurrently. Word documents and CV working files are not included in this repository or website.
+
+The local folder `portfolio-v2` is excluded from the original repository. Its Git remote points only to `portfolio-EN`; changes here do not update the French portfolio.
 
 ## GitHub Pages
 
-Site original (version 1) : https://audrey-tic.github.io/portfolio/
+GitHub Pages uses **GitHub Actions** as its publishing source in **Settings → Pages → Build and deployment**. The workflow `.github/workflows/deploy-pages.yml` checks JavaScript syntax, prepares the static files and deploys the English website on pushes to `main`. It can also be run manually from **Actions**. No additional secrets or dependency installation are required.
 
-Le workflow `.github/workflows/deploy-pages.yml` se déclenche uniquement manuellement depuis l’onglet **Actions** du nouveau dépôt, après configuration de GitHub Pages. Il vérifie la syntaxe JavaScript, prépare les fichiers statiques, puis les déploie sur GitHub Pages. Pousser du code ne publie pas le site.
+Paths are relative so the website works under `/portfolio-EN/`. Only `index.html`, `styles.css`, `theme.css`, `app.js`, `experiences.js`, `.nojekyll` and the `assets/` folder are deployed. Preview tools and this README are not published as part of the site.
 
-GitHub Pages utilise **GitHub Actions** comme source de publication dans **Settings → Pages → Build and deployment**. Aucun secret supplémentaire ni installation de dépendances n’est nécessaire.
+## Logos and certification links
 
-Les chemins sont relatifs : le site pourra fonctionner sous `/portfolio-EN/`. Seuls les fichiers de la page et le dossier `assets` sont prévus pour la publication ; les outils de prévisualisation et le README restent dans le dépôt. Le fichier `.nojekyll` permet de servir les fichiers tels quels.
+The CGI logo comes from the supplied CV. Its SVG wrapper preserves the original image while cropping asymmetric white margins. The green SST logo comes from https://www.lonasante.com/wp-content/uploads/2026/03/logo-sst-vert-HD-niveau-acteur-Source-INRS.png and retains its original colours and proportions.
 
-## Précisions sur le parcours et les logos
+Certification links were supplied by Audrey. The Product Owner and Scrum Master credentials link to her Scrum.org profile: https://www.scrum.org/user/805818. The Adobe Experience Manager and Adobe Analytics credential titles match the supplied verification pages.
 
-Les responsabilités transverses chez CGI et la qualification de Sauveteuse secouriste du travail ont été fournies directement par Audrey. Le logo CGI provient du CV. Le logo SST vert provient de https://www.lonasante.com/wp-content/uploads/2026/03/logo-sst-vert-HD-niveau-acteur-Source-INRS.png et est conservé dans ses couleurs et proportions d’origine. Aucune date de certification ni de début chez CGI n’a été ajoutée.
+## Search engine indexing
 
-## Indexation
+The page retains the `noindex, nofollow, noimageindex` robots directive. There is no `robots.txt` block, so crawlers can read the directive. The published website is publicly accessible by its link; the directive requests exclusion from search results and does not restrict access.
 
-La page contient une balise robots `noindex, nofollow, noimageindex` pour demander aux moteurs de recherche de ne pas l’indexer. Aucun blocage par `robots.txt` n’est ajouté : les moteurs doivent pouvoir lire cette consigne. Le site reste public et accessible par son lien ; une éventuelle désindexation prend effet après un nouveau passage du moteur.
+## Interest illustrations
 
-## Illustrations des loisirs
+The vector illustrations are from Game-icons.net, licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Attribution is also available under **Illustration credits** in the footer. The images are stored locally and were not generated using AI. Only colours and background transparency have been adapted.
 
-Illustrations vectorielles du projet Game-icons.net, sous licence CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), avec attribution accessible dans le volet « Crédits des illustrations » en pied de page, y compris pour cet usage personnel et non commercial. Les dessins sont conservés localement, sans génération par IA. Seules la couleur et la transparence du fond sont adaptées.
+- Badminton: Shuttlecock, Delapouite — https://game-icons.net/1x1/delapouite/shuttlecock.html
+- Skiing: Skier, Delapouite — https://game-icons.net/1x1/delapouite/skier.html
+- Board games: Rolling dices, Delapouite — https://game-icons.net/1x1/delapouite/rolling-dices.html
+- Sewing: Sewing machine, Caro Asercion — https://game-icons.net/1x1/caro-asercion/sewing-machine.html
 
-- Badminton : Shuttlecock, Delapouite - https://game-icons.net/1x1/delapouite/shuttlecock.html
-- Ski : Skier, Delapouite - https://game-icons.net/1x1/delapouite/skier.html
-- Jeux : Rolling dices, Delapouite - https://game-icons.net/1x1/delapouite/rolling-dices.html
-- Couture : Sewing machine, Caro Asercion - https://game-icons.net/1x1/caro-asercion/sewing-machine.html
-
-Les tuiles se retournent au survol, au clavier et au toucher. Les préférences de réduction des animations sont respectées. Le logo CGI centré reprend l’image originale intégrée dans un SVG dont le cadrage retire les marges blanches asymétriques.
-
-Les liens de certification sont fournis par Audrey. Les certifications agiles Product Owner et Scrum Master renvoient vers son profil Scrum.org : https://www.scrum.org/user/805818. Les intitulés Adobe Experience Manager et Adobe Analytics ont été vérifiés sur les pages de validation fournies.
+Interest cards flip on hover, keyboard focus and touch. Reduced-motion preferences are respected.
