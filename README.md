@@ -2,7 +2,7 @@
 
 English version of Audrey Tichit’s professional portfolio: a single page built with HTML, CSS and vanilla JavaScript. Entirely static, with no external libraries or visitor tracking.
 
-This project is independent of the original French portfolio. The translation preserves the professional information, dates, company names, qualifications and design. Official French institution and qualification names are retained where appropriate.
+This project is independent of the original French portfolio. The English content highlights product ownership, CRM, analytics and adoption, while preserving company names, qualifications and design. Official French institution and qualification names are retained where appropriate.
 
 - Repository: https://github.com/Audrey-Tic/portfolio-EN
 - English website: https://audrey-tic.github.io/portfolio-EN/
@@ -62,3 +62,12 @@ The vector illustrations are from Game-icons.net, licensed under CC BY 3.0 (http
 - Sewing: Sewing machine, Caro Asercion — https://game-icons.net/1x1/caro-asercion/sewing-machine.html
 
 Interest cards flip on hover, keyboard focus and touch. Reduced-motion preferences are respected.
+
+## Content focus: CRMA Product Owner
+
+The English copy is tailored to the Mars / Royal Canin CRMA Product Owner vacancy (R161357): business requirements, backlog management, operational KPIs, dashboard requirements, cross-team collaboration and adoption. Assignments retain reverse chronological order, with ongoing work first and concurrent assignments grouped by their start dates. A dedicated panel immediately below the introduction highlights the past Royal Canin consulting assignment via CGI without moving it ahead of more recent work. The Royal Canin entry now separates B2B discovery from Set2Sell reporting and enablement. Its period is corrected to 2020–2021 based on the supplied mission review (the B2B assignment began in May 2020; Set2Sell continued into January 2021).
+
+Sources: Audrey’s existing CV content, MissionRC_BilanActivités_vATIC.pdf and Set2Sell Trainings.pdf, supplied by Audrey. The PDFs remain outside the published site; the portfolio summarises her contributions without reproducing internal slides, links or named stakeholders. Planned training initiatives are not presented as completed delivery. Salesforce Marketing Cloud experience is distinguished from CRM Analytics: no hands-on CRMA implementation or Salesforce certification is claimed. The supplied Trailblazer profile is linked from education and contact, separately from verified certifications.
+
+Vacancy: https://careers.mars.com/fr/fr/job/R161357/CRMA-Product-Owner-F-M-X
+Trailblazer: https://www.salesforce.com/trailblazer/atichit1

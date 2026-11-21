@@ -1,4 +1,4 @@
-/* Information from Audrey’s CV and additional details she provided. Employers are presented in index.html. */
+/* Professional experience from Audrey’s CV and supplied assignment documents. */
 window.portfolioMarkets = {
   "banking": "Banking & insurance",
   "aerospace": "Aerospace",
@@ -20,7 +20,7 @@ window.portfolioExperiences = [
       "marketing",
       "data"
     ],
-    "summary": "Two assignments: an SEO / GEO roadmap and a Salesforce Marketing Cloud assessment.",
+    "summary": "Assessed Salesforce Marketing Cloud data governance and prioritised transformation use cases; also developed an SEO / GEO roadmap.",
     "projects": [
       {
         "title": "SEO / GEO",
@@ -97,15 +97,14 @@ window.portfolioExperiences = [
       "data",
       "change"
     ],
-    "summary": "Led the migration of the La Personnelle website from Liferay to Adobe Experience Manager.",
+    "summary": "Owned the backlog for a website platform migration, connecting business and UX requirements, analytics continuity and user training.",
     "context": "Supported the platform migration while ensuring consistent user journeys, data continuity and user readiness.",
     "missions": [
-      "Defined and documented components and page structures based on business and UX requirements.",
-      "Supported the implementation of Adobe Analytics with technical teams.",
-      "Planned the migration in coordination with multidisciplinary teams.",
-      "Oversaw SEO and tracking requirements to maintain measurement continuity.",
-      "Coordinated and delivered training for end users.",
-      "Managed the backlog in Jira.",
+      "Translated business and UX requirements into documented components and page structures.",
+      "Managed the delivery backlog in Jira and coordinated migration planning with multidisciplinary teams.",
+      "Supported Adobe Analytics implementation with technical teams and oversaw tracking requirements to preserve measurement continuity.",
+      "Coordinated SEO requirements alongside the platform migration.",
+      "Coordinated and delivered end-user training to prepare teams for the new platform.",
       "Managed project risks."
     ],
     "tools": [
@@ -120,6 +119,30 @@ window.portfolioExperiences = [
     "logo": "./assets/logos/desjardins.png"
   },
   {
+    "company": "Speedy",
+    "monogram": "S",
+    "color": "blue",
+    "role": "Analytics Consultant",
+    "period": "Oct 2024 - Jan 2025",
+    "categories": [
+      "data",
+      "marketing"
+    ],
+    "summary": "Maintained and enhanced the tagging plan and marketing campaign tracking.",
+    "context": "Supported the maintenance and development of digital measurement in collaboration with marketing partners.",
+    "missions": [
+      "Created tags with partners for marketing tracking and retargeting.",
+      "Set up monitoring dashboards."
+    ],
+    "tools": [
+      "Tracking",
+      "Retargeting",
+      "Dashboards"
+    ],
+    "market": "automotive",
+    "logo": "./assets/logos/speedy.png"
+  },
+  {
     "company": "ANCV",
     "monogram": "a",
     "color": "red",
@@ -130,7 +153,7 @@ window.portfolioExperiences = [
       "product",
       "marketing"
     ],
-    "summary": "Audited analytics and implemented tailored tracking plans.",
+    "summary": "Defined KPIs, tracking requirements and dashboards to restore reliable performance measurement across websites and applications.",
     "tools": [
       "GTM",
       "Contentsquare",
@@ -158,30 +181,6 @@ window.portfolioExperiences = [
     "outcome": "The engagement helped ANCV restore consistent traffic measurement and reliable KPIs to guide improvements to its websites and applications."
   },
   {
-    "company": "Speedy",
-    "monogram": "S",
-    "color": "blue",
-    "role": "Analytics Consultant",
-    "period": "Oct 2024 - Jan 2025",
-    "categories": [
-      "data",
-      "marketing"
-    ],
-    "summary": "Maintained and enhanced the tagging plan and marketing campaign tracking.",
-    "context": "Supported the maintenance and development of digital measurement in collaboration with marketing partners.",
-    "missions": [
-      "Created tags with partners for marketing tracking and retargeting.",
-      "Set up monitoring dashboards."
-    ],
-    "tools": [
-      "Tracking",
-      "Retargeting",
-      "Dashboards"
-    ],
-    "market": "automotive",
-    "logo": "./assets/logos/speedy.png"
-  },
-  {
     "company": "Macif",
     "monogram": "M",
     "color": "blue",
@@ -192,14 +191,14 @@ window.portfolioExperiences = [
       "product",
       "change"
     ],
-    "summary": "Streamlined KPIs and mapped customer contact journeys.",
-    "context": "Two areas of digital strategy: rationalising performance indicators and understanding the end-to-end callback request journey.",
+    "summary": "Aligned business teams on performance indicators and translated reporting discrepancies and customer contact journeys into actionable requirements.",
+    "context": "Combined KPI rationalisation with analysis of the end-to-end callback journey, linking digital channels, data flows and contact centre operations.",
     "missions": [
-      "Facilitated business workshops and defined web, app and social media indicators.",
-      "Analysed conversion measurement discrepancies and defined user stories and their dependencies.",
-      "Helped users get started with dashboards.",
-      "Modelled Web Call Back journeys and data flows between SAP, Genesys and the CMS.",
-      "Documented journeys and recommended improvements for customers and contact centre advisers."
+      "Facilitated business workshops to define and rationalise KPIs across web, app and social media channels.",
+      "Investigated conversion measurement discrepancies and translated findings into user stories, identifying dependencies.",
+      "Helped business users understand and use dashboards to support day-to-day decisions.",
+      "Mapped Web Call Back journeys and data flows between SAP, Genesys and the CMS.",
+      "Documented customer and adviser journeys and recommended improvements for contact centre operations."
     ],
     "tools": [
       "Piano",
@@ -321,34 +320,6 @@ window.portfolioExperiences = [
     "logo": "./assets/logos/le-conservateur.png"
   },
   {
-    "company": "Royal Canin",
-    "monogram": "RC",
-    "color": "red",
-    "role": "Proxy Product Owner · Global Functional Expert",
-    "period": "2021",
-    "categories": [
-      "product",
-      "data"
-    ],
-    "summary": "Delivered a unified B2B experience and improved a sales force automation tool.",
-    "context": "Two assignments: implementing a B2B ecosystem offering a unified purchasing experience and continuously improving a sales force automation tool.",
-    "missions": [
-      "Facilitated business and technical workshops, defined user stories and estimated effort with developers.",
-      "Created personas and mapped the user experience.",
-      "Identified silos and country-specific requirements.",
-      "Interviewed users and functional experts about usage.",
-      "Analysed data in Power BI and recommended corrective actions."
-    ],
-    "tools": [
-      "User stories",
-      "Personas",
-      "Experience mapping",
-      "Power BI"
-    ],
-    "market": "retail",
-    "logo": "./assets/logos/royal-canin.png"
-  },
-  {
     "company": "BMW",
     "monogram": "BMW",
     "color": "blue",
@@ -373,6 +344,61 @@ window.portfolioExperiences = [
     ],
     "market": "automotive",
     "logo": "./assets/logos/bmw.png"
+  },
+  {
+    "company": "Royal Canin",
+    "anchor": "royal-canin",
+    "monogram": "RC",
+    "color": "red",
+    "role": "Proxy Product Owner · Global Functional Expert",
+    "period": "2020 - 2021",
+    "categories": [
+      "product",
+      "data",
+      "change"
+    ],
+    "summary": "Connected B2B customer journeys, sales reporting needs and user adoption across two assignments: the B2B ecosystem and Set2Sell sales force automation.",
+    "tools": [
+      "Sales force automation",
+      "B2B e-commerce",
+      "KPI definition",
+      "Dashboard requirements",
+      "MoSCoW",
+      "User stories",
+      "Power BI",
+      "User training"
+    ],
+    "market": "retail",
+    "logo": "./assets/logos/royal-canin.png",
+    "projects": [
+      {
+        "title": "Set2Sell · Sales reporting & user adoption",
+        "period": "2020 - 2021",
+        "sponsors": ["Adrian Simmonds", "Guilhaume Garcia", "Guillaume Roy"],
+        "context": "Supported the continuous improvement of a sales force automation solution used by sales representatives and managers for account management, orders, visits and sales performance.",
+        "missions": [
+          "Interviewed key users and functional experts to understand sales processes, reporting needs and adoption barriers across markets.",
+          "Facilitated workshops to define dashboard capabilities and used MoSCoW prioritisation to identify essential KPIs.",
+          "Translated fit-gap analysis and country feedback into user stories; participated in sprint demonstrations and planning with IT teams.",
+          "Designed a usage and satisfaction survey and proposed a structured workflow for collecting user feedback.",
+          "Reviewed existing training and worked on step-by-step one-page guides with video support to help sales representatives use the tool in their daily work.",
+          "Identified opportunities to connect sales workflows with the webshop."
+        ]
+      },
+      {
+        "title": "B2B ecosystem · Discovery & customer journeys",
+        "period": "2020",
+        "sponsors": ["Peggy Anselme", "Gaelle Wuilmet"],
+        "context": "Mapped a fragmented B2B digital landscape to identify opportunities for a more consistent purchasing experience, better data sharing and simpler processes across markets and customer segments.",
+        "missions": [
+          "Interviewed asset owners to understand capabilities, roadmaps and dependencies between digital services.",
+          "Analysed ordering and customer identity journeys and mapped the existing landscape and target ecosystem.",
+          "Created experience maps for B2B customer segments and identified market-specific needs and silos.",
+          "Consolidated findings into recommendations and aligned business and technical stakeholders through workshops.",
+          "Defined user stories and estimated effort with developers to support the improvement plan."
+        ]
+      }
+    ]
   }
 ];
 

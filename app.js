@@ -22,6 +22,7 @@
 
   function renderExperience(experience) {
     const card = element('details', 'experience-card');
+    if (experience.anchor) card.id = experience.anchor;
     const summary = element('summary', 'experience-summary');
     const brand = element('span', `company-mark mark-${experience.color}`, experience.monogram);
     if (experience.logo) {
@@ -65,6 +66,11 @@
       const columns = element('div', 'mission-columns');
       const context = element('div', 'mission-context');
       context.append(element(headingLevel, 'detail-heading', 'Context'), element('p', '', project.context));
+      if (project.sponsors?.length) {
+        const sponsors = element('p', 'mission-sponsors');
+        sponsors.append(element('strong', '', 'Mission sponsors: '), document.createTextNode(project.sponsors.join(', ')));
+        context.append(sponsors);
+      }
       const missions = element('div', 'mission-tasks');
       missions.append(element(headingLevel, 'detail-heading', 'My contribution'));
       const tasks = element('ul', 'task-list');
@@ -142,6 +148,28 @@
   });
   render();
   document.querySelector('#volunteering-list').replaceChildren(...(window.portfolioVolunteering || []).map(renderExperience));
+
+  function revealLinkedAssignment() {
+    const experience = experiences.find(item => item.anchor && `#${item.anchor}` === location.hash);
+    if (!experience) return;
+    resetFilters.click();
+    expanded = true;
+    render();
+    const card = document.getElementById(experience.anchor);
+    card.open = true;
+    card.querySelector('summary').focus({ preventScroll: true });
+    card.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
+  }
+  document.querySelectorAll('.assignment-highlight a[href^="#"]').forEach(link => {
+    link.addEventListener('click', event => {
+      if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      if (location.hash === link.hash) revealLinkedAssignment();
+      else location.hash = link.hash;
+    });
+  });
+  window.addEventListener('hashchange', revealLinkedAssignment);
+  if (location.hash) requestAnimationFrame(revealLinkedAssignment);
 
   const menu = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.navigation');
